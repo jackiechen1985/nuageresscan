@@ -1,0 +1,29 @@
+{
+  "neutron": {
+    "username": "neutron",
+    "password": "0c75bcb291a94015",
+    "ip_addr": "135.251.96.37",
+    "port": 3306,
+    "db_name": "neutron"
+  },
+  "vsd": [
+    {
+      "username": "csproot",
+      "password": "csproot",
+      "organization": "csp",
+      "url": "https://135.251.96.136:8443",
+      "net_partition": "OpenStack_Pike_beijing",
+      "cms_id": "ebbdadd3-cc73-42ed-9a04-361d99e12aee",
+      "az": "beijing"
+    },
+    {
+      "username": "csproot",
+      "password": "csproot",
+      "organization": "csp",
+      "url": "https://135.251.96.137:8443",
+      "net_partition": "OpenStack_pike",
+      "cms_id": "e4e6b7b1-202a-4d7a-87f2-412beb513d17",
+      "az": "changsha"
+    }
+  ]
+}
